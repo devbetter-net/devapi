@@ -1,5 +1,4 @@
 ﻿using Dev.Core.Result;
-using Dev.Core.SharedKernel;
 
 namespace Dev.Plugin.ChitmeoBank.UseCases.Banks.Create;
 
