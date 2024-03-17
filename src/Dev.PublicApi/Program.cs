@@ -1,7 +1,15 @@
+using Dev.Core.SharedKernel;
+using Dev.Plugin.ChitmeoBank;
+using MediatR;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllers();
+builder.AddChitmeoBank();
+builder.Services.AddScoped(typeof(IPipelineBehavior<,>), typeof(LoggingBehavior<,>));
+builder.Services.AddScoped<IDomainEventDispatcher, MediatRDomainEventDispatcher>();
+
 const string CORS_POLICY = "CorsPolicy";
 var corsOrigins = builder.Configuration.GetSection("CorsWithOrigins").Get<string[]>() ?? Array.Empty<string>();
 builder.Services.AddCors(options =>

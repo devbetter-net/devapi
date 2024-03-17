@@ -1,4 +1,6 @@
-﻿namespace Dev.Plugin.ChitmeoBank.Infrastructure.Data.Queries.Banks;
+﻿using Dev.Plugin.ChitmeoBank.UseCases.Banks.List;
+
+namespace Dev.Plugin.ChitmeoBank.Infrastructure.Data.Queries.Banks;
 public class ListBanksQueryService : IListBanksQueryService
 {
     private readonly BankDbContext _dbContext;

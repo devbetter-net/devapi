@@ -1,6 +1,4 @@
-﻿using Dev.Core.GuardClauses;
-using Dev.Core.SharedKernel;
-
+﻿
 namespace Dev.Plugin.ChitmeoBank.Core.Entities.BankAggregate;
 
 public class Bank : EntityBase, IAggregateRoot
