@@ -1,5 +1,4 @@
-﻿using Dev.Core.SharedKernel;
-using Dev.Core.Specification.EntityFrameworkCore;
+﻿using Dev.Core.Specification.EntityFrameworkCore;
 
 namespace Dev.Plugin.ChitmeoBank.Infrastructure.Data;
 

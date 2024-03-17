@@ -1,6 +1,4 @@
-﻿using Dev.Core.Result;
-using Dev.Core.SharedKernel;
-using Dev.Plugin.ChitmeoBank.Core.Entities.BankAggregate;
+﻿using Dev.Plugin.ChitmeoBank.Core.Entities.BankAggregate;
 
 namespace Dev.Plugin.ChitmeoBank.UseCases.Banks.Create;
 
