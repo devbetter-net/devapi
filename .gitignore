@@ -478,3 +478,4 @@ $RECYCLE.BIN/
 
 .mono/*
 .DS_Store
+appsettings.Development.json
