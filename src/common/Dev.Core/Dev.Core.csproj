@@ -12,5 +12,9 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="7.0.17" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="GuardClauses/" />
+  </ItemGroup>
+
 
 </Project>

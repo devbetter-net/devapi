@@ -1,4 +1,5 @@
-﻿using Dev.Core.Specification;
+﻿
+using Dev.Core.Specification;
 
 namespace Dev.Core.SharedKernel;
 
