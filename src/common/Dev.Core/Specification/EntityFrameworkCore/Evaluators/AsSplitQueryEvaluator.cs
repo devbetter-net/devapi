@@ -1,5 +1,6 @@
-﻿using Dev.Core.Specification.Evaluators;
-using Dev.Core.Specification.Builder;
+﻿using Dev.Core.Specification.Builder;
+using Dev.Core.Specification.Evaluators;
+using Microsoft.EntityFrameworkCore;
 namespace Dev.Core.Specification.EntityFrameworkCore.Evaluators;
 
 public class AsSplitQueryEvaluator : IEvaluator
