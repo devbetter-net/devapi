@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dev.Core", "src\common\Dev.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dev.Infrastructure", "src\common\Dev.Infrastructure\Dev.Infrastructure.csproj", "{46B13250-606B-4F86-9D95-623C95E0EE99}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "plugins", "plugins", "{3AB6F300-4CA3-4E35-9442-FC600676BE5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dev.Plugin.ChitmeoBank", "src\plugins\Dev.Plugin.ChitmeoBank\Dev.Plugin.ChitmeoBank.csproj", "{297ECFAD-0C81-45DB-9E82-A91AB698AAEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,10 @@ Global
 		{46B13250-606B-4F86-9D95-623C95E0EE99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46B13250-606B-4F86-9D95-623C95E0EE99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46B13250-606B-4F86-9D95-623C95E0EE99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{297ECFAD-0C81-45DB-9E82-A91AB698AAEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{297ECFAD-0C81-45DB-9E82-A91AB698AAEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{297ECFAD-0C81-45DB-9E82-A91AB698AAEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{297ECFAD-0C81-45DB-9E82-A91AB698AAEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,5 +57,7 @@ Global
 		{1FA32187-B8BB-4DE8-8713-C870789E1102} = {B8BDE86B-F5B8-41C5-B2DB-BA00B72A1495}
 		{528FD78A-E73E-46CB-B7CE-C41A1BF1CC48} = {1FA32187-B8BB-4DE8-8713-C870789E1102}
 		{46B13250-606B-4F86-9D95-623C95E0EE99} = {1FA32187-B8BB-4DE8-8713-C870789E1102}
+		{3AB6F300-4CA3-4E35-9442-FC600676BE5D} = {B8BDE86B-F5B8-41C5-B2DB-BA00B72A1495}
+		{297ECFAD-0C81-45DB-9E82-A91AB698AAEF} = {3AB6F300-4CA3-4E35-9442-FC600676BE5D}
 	EndGlobalSection
 EndGlobal
